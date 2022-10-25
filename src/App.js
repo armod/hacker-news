@@ -4,7 +4,13 @@ import Stories from './Stories'
 import Buttons from './Buttons'
 
 function App() {
-  return <div></div>
+  return (
+    <>
+      <SearchForm />
+      <Buttons />
+      <Stories />
+    </>
+  )
 }
 
 export default App
